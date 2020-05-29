@@ -1,1 +1,1 @@
-module "https://github.com/MichaelRain/golyphone"
+module github.com/MichaelRain/golyphone

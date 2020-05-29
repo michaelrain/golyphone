@@ -1,7 +1,6 @@
 package golyphone
 
 import (
-	"regexp"
 	"strings"
 )
 
@@ -9,8 +8,7 @@ import (
 func Polyphone(s string) (string, error) {
 	s = strings.ToUpper(s)
 	s = latokir(s)
-
-	re := regexp.MustCompile("[^а-яА-Я]")
+	s = latclear(s)
 
 	return s, nil
 }

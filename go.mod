@@ -1,1 +1,1 @@
-module github.com/MichaelRain/golyphone
+module github.com/michaelrain/golyphone

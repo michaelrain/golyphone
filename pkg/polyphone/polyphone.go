@@ -1,11 +1,11 @@
-package golyphone
+package polyphone
 
 import (
 	"strings"
 )
 
 // Polyphone return the same value for words with same speech
-func Polyphone(s string) (string, error) {
+func Encode(s string) (string, error) {
 
 	s = strings.ToUpper(s)
 
@@ -13,6 +13,7 @@ func Polyphone(s string) (string, error) {
 	s = latclear(s)
 	s = delchars(s)
 	s = deldoubles(s)
+	s = replaces(s)
 
 	return s, nil
 }

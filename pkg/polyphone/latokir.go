@@ -1,4 +1,4 @@
-package golyphone
+package polyphone
 
 import "strings"
 

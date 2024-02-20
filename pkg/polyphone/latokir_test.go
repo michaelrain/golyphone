@@ -1,8 +1,8 @@
-package golyphone
+package polyphone
 
 import "testing"
 
-func LatokirTest(t testing.T){
+func LatokirTest(t testing.T) {
 	s := latokir("Привет Мир")
 
 	if s != "ПРИВЕТ МИР" {
